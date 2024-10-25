@@ -127,8 +127,8 @@ Activar la base de datos
  - **Acceder a wordpress desde el navegador**
 ![image](https://github.com/user-attachments/assets/3b4f09bb-a143-4d3f-a0f6-4fadd8de5078)
 
-- **Crear el archivo wp-config.php**
-Dentro se pone lo siguiente
+- **wp-config.php**    
+Crear el archivo wp-config.php en /srv/www/wordpress y dentro poner lo siguiente
 ~~~
 <?php
 /**
@@ -228,7 +228,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once ABSPATH . 'wp-settings.php';
 ~~~
 
-- **Accedo a la base de datos desde el navegador**
+- **Accedo a la base de datos desde el navegador**   
 ![image](https://github.com/user-attachments/assets/6b520843-d4e9-4c4a-9cc5-b76175f6e702)
 ![image](https://github.com/user-attachments/assets/a05a9577-bf0b-4984-8c78-d7bd14d46f03)
 
